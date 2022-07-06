@@ -1,0 +1,5 @@
+Suggestion:
+1. Add indexing to the table which find records with the specific coloumn values quickly instead of searching from first record to last record.
+2. Add fulltext to the table columns which required to use 'LIKE' search
+	eg: ALTER TABLE JobTypes ADD FULLTEXT(name);
+	then in your where clause: MATCH(JobTypes.name) AGAINST("キャビンアテンダント");
