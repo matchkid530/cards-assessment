@@ -1,5 +1,5 @@
 <?php
-require $_SERVER['DOCUMENT_ROOT'].'../class/Card.php';
+require '../class/Card.php';
 //Get input of total player
 $totalPlayer = $_POST['total_player'];
 //Validation of input (start)
