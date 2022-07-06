@@ -42,7 +42,7 @@ if (count($playerCard)) {
 								</div>';
 	}
 } else {
-	$result = "<p class='warning'>Unknown issue occurs!</p>";
+	$result = "<p class='warning'>Cards are not distributed!</p>";
 }
 //prepare result (end)
 //return result
